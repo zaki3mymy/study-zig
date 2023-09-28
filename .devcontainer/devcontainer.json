@@ -1,0 +1,12 @@
+{
+    "name": "develop-zig",
+    "dockerFile": "Dockerfile",
+	"runArgs": ["--name", "develop-zig"],
+    "extensions": [
+        "ziglang.vscode-zig",
+        "sohamkamani.code-eol",
+        "azuretools.vscode-docker",
+        "mhutchie.git-graph",
+        "oderwat.indent-rainbow"
+    ]
+}
